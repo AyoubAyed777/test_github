@@ -1,31 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Simulé</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
-<body>
-    <h1>Interface chat simulee</h1>
-    <nav>
-        <p>projet realise par Ayoub Ayed</p>
-    <button id="nc">Nouvelle chat</button>
-    <input type="text" id="nomnc" placeholder="Nom du chat" style="display:none;">
-    <ul id="history">Historique</ul>
-       
-    </nav>
-    <main class="">
-        <header>Nom du chat</header>
-        <div id="chat">
-        
-        </div>
-        <form  action="">
-            <div><input required type="text" name="msg" id="msg" placeholder="tapez votre msg ....">
-            <input id="sub" type="submit" value="➤"> </div>
 
+<body>
+    <h1>Chat Simulé</h1>
+    <nav>
+        <p>Projet réalisé par Ayoub Ayed</p>
+        <button id="nc">Nouveau chat</button>
+        <input type="text" id="nomnc" placeholder="Nom du chat" style="display:none;">
+        <ul id="history">Historique</ul>
+    </nav>
+
+    <main>
+        <header>Nom du chat</header>
+        <div id="chat"></div>
+        <form>
+            <input required type="text" id="msg" placeholder="Tapez votre message...">
+            <button id="sub" type="submit">➤</button>
         </form>
     </main>
+
     <script src="script.js"></script>
 </body>
+
 </html>
