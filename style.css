@@ -276,7 +276,7 @@ body {
 #themeToggle {
     position: fixed;
     bottom: 15px;
-    right: 1300px;
+    right: 100px;
     z-index: 999;
     background: var(--accent);
     color: #fff;
